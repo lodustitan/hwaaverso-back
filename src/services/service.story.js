@@ -12,7 +12,7 @@ export async function getStoryDialogue(storyId, id, route) {
   }
 
   if (stories[storyId]) {
-    const data = stories[storyId].data.default;
+    const data = stories[storyId].data;
 
     if (!data) throw new Error("Service Story Error: storyId not exists.");
     else {
