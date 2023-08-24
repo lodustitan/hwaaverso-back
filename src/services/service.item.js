@@ -1,5 +1,5 @@
-import craft from "../../pkgs/items/craft.json" assert { type: 'json' };
-import items from "../../pkgs/items/items.json" assert { type: 'json' };
+const craft = require("../../pkgs/items/craft.json"); 
+const items = require("../../pkgs/items/items.json");
 
 const serviceRoute = 'Item' 
 

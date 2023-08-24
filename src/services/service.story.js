@@ -1,10 +1,10 @@
-import characters from "../../pkgs/story/characters.json" assert { type: 'json' }; 
+const characters = require("../../pkgs/story/characters.json"); 
 
 export async function getStoryDialogue(storyId, id, route) {
   let returnData;
   const stories = {
     1: {
-      data: await import("../../pkgs/story/1_aniversario.json", { assert: { type: 'json' } }),
+      data: require("../../pkgs/story/1_aniversario.json"),
     }
   }
 
