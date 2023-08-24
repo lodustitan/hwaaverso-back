@@ -1,5 +1,5 @@
-const mapsData = require("../../pkgs/story/maps.json"); 
-const monstersData = require("../../pkgs/story/monsters.json"); 
+import mapsData from "../../pkgs/story/maps.json" assert { type: 'json' }; 
+import monstersData from "../../pkgs/story/monsters.json" assert { type: 'json' }; 
 
 export async function getMapsData() {
   const reference = mapsData.maps;
