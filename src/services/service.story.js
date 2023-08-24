@@ -1,10 +1,10 @@
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const characters = require("../../pkgs/story/characters.json"); 
+const history_1 = require("../../pkgs/story/1_aniversario.json");
 
 export async function getStoryDialogue(storyId, id, route) {
   let returnData;
-  const history_1 = require("../../pkgs/story/1_aniversario.json");
   const stories = {
     1: {
       data: history_1,
