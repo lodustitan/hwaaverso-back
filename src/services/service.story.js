@@ -4,9 +4,10 @@ const characters = require("../../pkgs/story/characters.json");
 
 export async function getStoryDialogue(storyId, id, route) {
   let returnData;
+  const history_1 = require("../../pkgs/story/1_aniversario.json");
   const stories = {
     1: {
-      data:  require("../../pkgs/story/1_aniversario.json"),
+      data: history_1,
     }
   }
 
