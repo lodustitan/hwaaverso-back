@@ -1,0 +1,35 @@
+{
+  "maps": [
+    {"mapId": 1, "name": "Dark Forest", "type": "hunt",
+      "labelImage": "https://i0.wp.com/orbedosdragoes.com/wp-content/uploads/2017/03/dark-forest-4.jpg",
+      "backgroundImage": "https://i0.wp.com/orbedosdragoes.com/wp-content/uploads/2017/03/dark-forest-4.jpg",
+      "subLocals": [
+        {"id": 1, "name": "Lugar Magico", 
+          "research": [
+            {"monsterId": 2, "chance": 7800},
+            {"monsterId": 1, "chance": 10000}
+          ]},
+        {"id": 2, "name": "Estrada Principal", 
+        "research": [
+          {"monsterId": 3, "chance": 7800},
+          {"monsterId": 2, "chance": 10000}
+        ]},
+        {"id": 3, "name": "Cabana de Wincherter", 
+        "research": [
+          {"monsterId": 5, "chance": 7800},
+          {"monsterId": 4, "chance": 10000}
+        ]},
+        {"id": 4, "name": "Penhasco Escuro", 
+        "research": [
+          {"monsterId": 7, "chance": 7800},
+          {"monsterId": 6, "chance": 10000}
+        ]},
+        {"id": 5, "name": "Estranho Local", 
+        "research": [
+          {"monsterId": 9, "chance": 7800},
+          {"monsterId": 8, "chance": 10000}
+        ]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "craft": [
+    {
+      "category": "Roupas", "listCraft": [
+      {"itemId": 22, "resourceCost": 30, "fameCost": 0, "sucessChance": 10000, "itemsCost": [
+        {"itemId": 10, "count": 25}
+      ]},
+      {"itemId": 23, "resourceCost": 250, "fameCost": 0, "sucessChance": 9500, "itemsCost": [
+        {"itemId": 11, "count": 25}
+      ]},
+      {"itemId": 24, "resourceCost": 3000, "fameCost": 0, "sucessChance": 8100, "itemsCost": [
+        {"itemId": 12, "count": 25}
+      ]},
+      {"itemId": 25, "resourceCost": 10000, "fameCost": 0, "sucessChance": 7100, "itemsCost": [
+        {"itemId": 13, "count": 25}
+      ]},
+      {"itemId": 26, "resourceCost": 65130, "fameCost": 0, "sucessChance": 6100, "itemsCost": [
+        {"itemId": 14, "count": 25}
+      ]},
+      {"itemId": 27, "resourceCost": 128830, "fameCost": 0, "sucessChance": 4230, "itemsCost": [
+        {"itemId": 15, "count": 25}
+      ]}
+    ]},
+    {
+      "category": "Armas", "listCraft": [
+        {"itemId": 28, "resourceCost": 65, "fameCost": 0, "sucessChance": 9100, "itemsCost": [
+          {"itemId": 10, "count": 25},
+          {"itemId": 3, "count": 15}
+        ]},
+        {"itemId": 33, "resourceCost": 72128830, "fameCost": 1250000, "sucessChance": 9100, "itemsCost": [
+          {"itemId": 3, "count": 1000},
+          {"itemId": 8, "count": 100},
+          {"itemId": 9, "count": 25},
+          {"itemId": 10, "count": 25},
+          {"itemId": 14, "count": 100}
+        ]}
+      ]},
+    {
+      "category": "Comidas", "listCraft": [
+        {"itemId": 34, "resourceCost": 40, "fameCost": 0, "sucessChance": 9100, "itemsCost": [
+          {"itemId": 16, "count": 1},
+          {"itemId": 18, "count": 4}
+        ]}
+      ]}
+  ]
+}

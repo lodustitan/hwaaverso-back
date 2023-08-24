@@ -1,0 +1,71 @@
+{
+  "scenes": [
+    {
+      "id": 1,
+      "route": null,
+      "background": "/backgrounds/mansao.jpg",
+      "textSequence": [
+        {"speakerId": null, "text": "Na penumbra da noite, o protagonista, Gloria, encontrou-se encurralado no topo de um arranha-céu abandonado."},
+        {"speakerId": 1, "text": "Onde estou?"},
+        {"speakerId": null, "text": "O vento uivava ao seu redor, fazendo seus cabelos e roupas dançarem freneticamente. Abaixo dele, uma gangue implacável o caçava, seus passos ecoando pelo beco estreito que levava à entrada do edifício."},
+        {"speakerId": null, "text": "Com o coração martelando no peito, Gloria sabia que suas opções eram limitadas."}
+      ],
+      "choices": [
+        {"choiceText": "continuar", "action": "goto_dialogue_id", "value": 2}
+       ]
+    },
+    {
+      "id": 2,
+      "route": null,
+      "background": "/backgrounds/mansao.jpg",
+      "textSequence": [
+        {"speakerId": null, "text": "Sem tempo a perder, Gloria correu pelo telhado, seus pés mal tocando as superfícies desgastadas."},
+        {"speakerId": null, "text": "A gangue se aproximava, suas vozes cruéis ecoando, e Gloria avistou uma passagem estreita que levava a uma estrutura suspensa."},
+        {"speakerId": null, "text": "Saltando com coragem, ele agarrou-se a uma saliência instável, enquanto os perseguidores se aproximavam."},
+        {"speakerId": null, "text": "O metal rangeu sob seu peso, uma chuva repentina começou a cair, tornando tudo ainda mais escorregadio."},
+        {"speakerId": null, "text": "Com mãos trêmulas, Gloria lutou para se manter firme, consciente de que a menor falha significaria sua queda iminente."}
+      ],
+      "choices": [
+        {"choiceText": "continuar", "action": "goto_dialogue_id", "value": 3}
+       ]
+    },
+    {
+      "id": 3,
+      "route": null,
+      "background": "/backgrounds/mansao.jpg",
+      "textSequence": [
+        {"speakerId": null, "text": "Com um último esforço hercúleo, David conseguiu alcançar a estrutura suspensa. No entanto, um estrondo ensurdecedor fez o metal ceder sob ele."},
+        {"speakerId": null, "text": "Com um grito angustiado, ele despencou em queda livre, seu corpo atingindo uma série de suportes enferrujados antes de aterrissar em uma caixa d'água abandonada."}
+      ],
+      "choices": [
+        {"choiceText": "continuar", "action": "goto_dialogue_id", "value": 4}
+       ]
+    },
+    {
+      "id": 4,
+      "route": null,
+      "background": "/backgrounds/mansao.jpg",
+      "textSequence": [
+        {"speakerId": null, "text": "Quando recobrou a consciência, percebeu que estava em um local desconhecido, cercado por dunas intermináveis de areia dourada."},
+        {"speakerId": null, "text": "Desorientada e dolorida, Gloria lutou para se levantar, seu olhar varrendo o vasto deserto à sua volta. A cidade que conhecera estava agora a quilômetros de distância, e ela estava isolada, sem sinal de vida humana à vista."},
+        {"speakerId": null, "text": "Sua única companhia eram os uivos solitários do vento e a imensidão inóspita do deserto que a engolira. Apesar de ter sobrevivido à queda, Gloria sentia uma profunda tristeza e vazio interior, como se algo importante estivesse faltando em sua vida."}
+      ],
+      "choices": [
+        {"choiceText": "continuar", "action": "goto_dialogue_id", "value": 5}
+       ]
+    },
+    {
+      "id": 5,
+      "route": null,
+      "background": "/backgrounds/mansao.jpg",
+      "textSequence": [
+        {"speakerId": null, "text": "Mesmo diante da grandiosidade do cenário, um sentimento de desespero a envolvia, deixando-a com a sensação de que suas lutas estavam longe de terminar."}
+     ],
+     "choices": [
+      {"choiceText": "voltar do inicio", "action": "goto_dialogue_id", "value": 1},
+      {"choiceText": "batalha com Urit", "action": "start_battle_monster", "value": 8},
+      {"choiceText": "ir ao menu", "action": "back_menu", "value": true}
+     ]
+    }
+  ]
+}

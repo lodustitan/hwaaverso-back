@@ -1,0 +1,58 @@
+{
+  "monsters": [
+    {"monsterId": 1, "name": "Praga de Ratos", "sprite": "/enemies/rat.png", 
+      "rewards": { "resources": [1, 3] },
+      "status": {"health": 49, "evasion": 1, "damage": 19},
+      "loot": [
+        {"itemId": 16, "count": [1, 1], "chance": 10000}
+      ]},
+    {"monsterId": 2, "name": "Inseto da Mana", "sprite": "/enemies/mana_bug.png", 
+      "rewards": { "resources": [1, 3] },
+      "status": {"health": 79, "evasion": 21, "damage": 21},
+      "loot": [
+        {"itemId": 16, "count": [1, 1], "chance": 2500}
+      ]},
+    {"monsterId": 3, "name": "Praga de Ratazanas", "sprite": "/enemies/mana_rat.png", 
+      "rewards": { "resources": [3, 7] },
+      "status": {"health": 88, "evasion": 12, "damage": 24},
+    "loot": [
+      {"itemId": 16, "count": [1, 1], "chance": 2500}
+    ]},
+    {"monsterId": 4, "name": "Bandido de Nogard", "sprite": "/enemies/bandit_3.png", 
+      "rewards": { "resources": [5, 10] },
+      "status": {"health": 96, "evasion": 26, "damage": 31},
+      "loot": [
+        {"itemId": 16, "count": [1, 1], "chance": 2500}
+      ]},
+    {"monsterId": 5, "name": "Bandido da União Sub", "sprite": "/enemies/bandit_2.png", 
+      "rewards": { "resources": [3, 6] },
+      "status": {"health": 88, "evasion": 22, "damage": 26},
+    "loot": [
+      {"itemId": 16, "count": [1, 1], "chance": 2500}
+    ]},
+    {"monsterId": 6, "name": "Bandido da Silveri", "sprite": "/enemies/bandit_1.png", 
+      "rewards": { "resources": [5, 9] },
+      "status": {"health": 134, "evasion": 34, "damage": 44},
+      "loot": [
+        {"itemId": 16, "count": [1, 1], "chance": 2500}
+      ]},
+    {"monsterId": 7, "name": "Ratos com Surto de Mana", "sprite": "/enemies/rat_monster.png", 
+      "rewards": { "resources": [2, 5] },
+      "status": {"health": 111, "evasion": 18, "damage": 56},
+    "loot": [
+      {"itemId": 16, "count": [1, 1], "chance": 2500}
+    ]},
+    {"monsterId": 8, "name": "Cad Silveri", "sprite": "/enemies/cad.png", 
+      "rewards": { "resources": [8, 21] },
+      "status": {"health": 149, "evasion": 12, "damage": 68},
+      "loot": [
+        {"itemId": 16, "count": [1, 1], "chance": 2500}
+      ]},
+    {"monsterId": 9, "name": "Urit Ardruem de Arduin", "sprite": "/enemies/urit.png", 
+      "rewards": { "resources": [15, 28] },
+      "status": {"health": 388, "evasion": 39, "damage": 77},
+      "loot": [
+        {"itemId": 16, "count": [1, 1], "chance": 2500}
+      ]}
+  ]
+}

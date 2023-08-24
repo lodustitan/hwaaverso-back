@@ -1,0 +1,10 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Gloria",
+      "colorText": "#eee",
+      "animation": "/characters/gloria_1.jpg"
+    }
+  ]
+}
